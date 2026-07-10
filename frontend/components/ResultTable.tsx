@@ -283,7 +283,7 @@ export default function ResultTable({ imported, skipped }: ResultTableProps) {
                           <td
                             key={field}
                             title={val.length > MAX_CELL ? val : undefined}
-                            className="px-4 py-2.5 text-slate-300 border-b border-white/5 max-w-[200px] whitespace-nowrap"
+                            className="px-4 py-2.5 text-slate-300 border-b border-white/5 min-w-[150px] max-w-[280px] break-words"
                           >
                             <span className={val ? '' : 'text-slate-600 italic'}>
                               {truncate(val)}
@@ -340,7 +340,7 @@ export default function ResultTable({ imported, skipped }: ResultTableProps) {
                         <td
                           key={header}
                           title={val.length > MAX_CELL ? val : undefined}
-                          className="px-4 py-2.5 text-slate-300 border-b border-white/5 max-w-[200px] whitespace-nowrap"
+                          className="px-4 py-2.5 text-slate-300 border-b border-white/5 min-w-[150px] max-w-[280px] break-words"
                         >
                           <span className={val ? '' : 'text-slate-600 italic'}>
                             {truncate(val)}
