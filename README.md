@@ -5,9 +5,8 @@ An AI-powered CSV importer that intelligently extracts and maps CRM lead informa
 ---
 
 ### 🌐 Hosted URL
-* **Hosted Application URL**: [Add your Vercel frontend URL here]
+* **Hosted Application URL**: [Add your Vercel frontend URL here](https://groweasy-csv-importer-coral.vercel.app/)
 * **GitHub Repository**: [https://github.com/IqraKhanZ/groweasy-csv-importer](https://github.com/IqraKhanZ/groweasy-csv-importer)
-* **Position Applied For**: [Software Developer Intern / Full-Time]
 
 ---
 
