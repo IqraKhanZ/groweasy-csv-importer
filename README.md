@@ -19,6 +19,9 @@ An AI-powered CSV importer that intelligently extracts and maps CRM lead informa
 * **PDF Export**: Allows downloading successfully processed records in a clean, print-friendly PDF format immediately.
 * **Clean UI & Dark Theme**: Premium WFH-style dark theme built with Tailwind CSS. Includes visual step wizards, count-up animations, and inline previews.
 
+
+> [!NOTE]
+> **API Rate Limit Notice**: Since the application is running on free-tier AI inference models (such as Groq, Gemini, or OpenRouter), processing large files in quick succession or with large batch sizes may occasionally trigger rate limits (`429 Too Many Requests`). If you encounter extraction failures, please try uploading smaller batches or configuring a lower `AI_BATCH_SIZE` value in your backend environment parameters to allow rate limit windows to reset.
 ---
 
 ## 🛠️ Tech Stack
